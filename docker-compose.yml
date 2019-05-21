@@ -14,6 +14,6 @@ services:
     depends_on:
       - db
     ports:
-      - "8080:8888"
+      - "80:8888"
     links:
       - db
